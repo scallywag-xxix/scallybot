@@ -1,4 +1,4 @@
-{
+export const config = {
   "client": {
     "id": "806616710793658429",
     "token": null

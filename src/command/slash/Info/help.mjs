@@ -1,5 +1,5 @@
 import { EmbedBuilder } from 'discord.js';
-import config from './config/config.json' assert { type: 'json' };
+import { config } from '../../../../config/config.mjs';
 // const GuildSchema = require('../../../schemas/GuildSchema');
 
 export default {

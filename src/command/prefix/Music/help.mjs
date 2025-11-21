@@ -1,5 +1,5 @@
 import { MessageEmbed } from 'discord.js';
-import config from '../../../meta/config.json' assert { type: 'json' };
+import { config } from '../../../../config/config.mjs';
 
 export const helpCommand = {
   info: {

@@ -1,5 +1,5 @@
 import { EmbedBuilder } from 'discord.js';
-import { log } from '../../functions/index.mjs';
+import { log } from '../../../functions/index.mjs';
 
 export default {
   data: {

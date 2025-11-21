@@ -1,7 +1,7 @@
 import fs from 'fs';
 import { Events } from 'discord.js';
 import { log } from '../../functions/index.mjs';
-import config from '../../../config/config.json' assert { type: 'json' };
+import { config } from '../../../config/config.mjs';
 
 export default {
   event: Events.MessageCreate,

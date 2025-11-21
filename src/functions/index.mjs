@@ -3,7 +3,7 @@ import { pathToFileURL } from 'url';
 import { join } from 'path';
 import chalk from 'chalk';
 import { REST, Routes } from 'discord.js';
-import config from '../../config/config.json' assert { type: 'json' };
+import { config } from '../../config/config.mjs';
 
 /**
  * Deploy application commands to Discord.
